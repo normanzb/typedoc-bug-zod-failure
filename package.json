@@ -1,0 +1,17 @@
+{
+  "name": "typedoc-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "typedoc --tsconfig ./tsconfig.json --html dist --entryPoints test.ts "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typedoc": "~0.28.0",
+    "typedoc-plugin-zod": "~1.4.0",
+    "typescript": "~5.8.3",
+    "zod": "^3.24.2"
+  }
+}

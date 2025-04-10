@@ -1,0 +1,4 @@
+{
+  "plugin": ["typedoc-plugin-zod"],
+  "gitRevision": "main"
+}
